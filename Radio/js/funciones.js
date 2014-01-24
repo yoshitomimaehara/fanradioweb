@@ -1,11 +1,16 @@
-	function cargaImagenes(nombre){
-		var url="programas/";
-		var i=null;
+	function getPrograma(num){
 		
-		
-		document.getElementById('image').value="src:"+url + img[i] + ".png";
+	
 	}
 	
-	function getLocutor(){
-
+	function cargaImagenes(num){
+		$.getJSON('json/programas.json',function(data){
+			$('#image').value("src","img/" + data.programas[num].img);
+		});
+	}
+	
+	function getLocutor(num){
+			$.getJSON('json/programas.json',function(data){
+			$('#loc').append(data.programas[num].dj);
+			});
 	}

@@ -1,26 +1,27 @@
-{"Fanradio":
-	{"Programas":
-		[
-			{"Nombre":"AutoDj","DJ":"V-Chan","img":"AutoDj.png"},
-			{"Nombre":"Sertlamania","DJ":"The Sertla","img":"Sertlamania.png"},
-			{"Nombre":"Anime no Hibi","DJ":"Jimbo","img":"Anime_no_Hibi.png"},
-			{"Nombre":"FanatiX","DJ":"Starty","img":"FanatiX.png"},
-			{"Nombre":"Contralonazo del Poder","DJ":"Understar","img":"Contralonazo_De_Poder.png"},
-			{"Nombre":"Cosplay Time","DJ":"Mishiko","img":"Cosplay_Time.png"},
-			{"Nombre":"Crisis de Identidad","DJ":"Qoki & Demes","img":"Crisis_de_identidad.png"},
-			{"Nombre":"Cueva sin Salida","DJ":"Takita","img":"Cueva_sin_Salida.png"},
-			{"Nombre":"Infexion Paradise","DJ":"V-Chan","img":"Infexion_Paradise.png"},
-			{"Nombre":"Locura Deportiva","DJ":"V-Chan","img":"Locura_Deportiva.png"},
-			{"Nombre":"Los Especiales","DJ":"Mel","img":"Los_Especiales.png"},
-			{"Nombre":"Moe Moe Kyun","DJ":"V-Chan","img":"Moe_Moe_Kyun.png"},
-			{"Nombre":"Motto Motto Anison","DJ":"V-Chan","img":"Motto_Motto_Anison.png"},
-			{"Nombre":"Otaku Channel","DJ":"V-Chan","img":"Otaku_Channel.png"},
-			{"Nombre":"Pan_con_Mango","DJ":"Kawaii-Chan","img":"Pan_con_Mango.png"},
-			{"Nombre":"Rainbow Sound","DJ":"V-Chan","img":"Rainbow_Sound.png"},
-			{"Nombre":"Sexo Sentido","DJ":"Vickynga","img":"Sexo_Sentido.png"},
-			{"Nombre":"Sonido Oscuro","DJ":"Vickynga","img":"Sonido_Oscuro.png"},
-			{"Nombre":"Prime Time","DJ":"V-Chan","img":"Prime_Time.png"},
-			{"Nombre":"Warp Zone","DJ":"V-Chan","img":"Warp_Zone.png"},
-		]
-	}
+{
+
+"programas":[
+
+			{"nombre":"Autodj","dj":"V-Chan","img":"Autodj.png"},
+			{"nombre":"Sertlamania","dj":"The Sertla","img":"Sertlamania.png"},
+			{"nombre":"Anime no Hibi","dj":"Jimbo","img":"Anime_no_Hibi.png"},
+			{"nombre":"FanatiX","dj":"Starty","img":"FanatiX.png"},
+			{"nombre":"Contralonazo del Poder","dj":"Understar","img":"Contralonazo_De_Poder.png"},
+			{"nombre":"Cosplay Time","dj":"Mishiko","img":"Cosplay_Time.png"},
+			{"nombre":"Crisis de Identidad","dj":"Qoki & Demes","img":"Crisis_de_identidad.png"},
+			{"nombre":"Cueva sin Salida","dj":"Takita","img":"Cueva_sin_Salida.png"},
+			{"nombre":"Infexion Paradise","dj":"V-Chan","img":"Infexion_Paradise.png"},
+			{"nombre":"Locura Deportiva","dj":"V-Chan","img":"Locura_Deportiva.png"},
+			{"nombre":"Los Especiales","dj":"Mel","img":"Los_Especiales.png"},
+			{"nombre":"Moe Moe Kyun","dj":"V-Chan","img":"Moe_Moe_Kyun.png"},
+			{"nombre":"Motto Motto Anison","dj":"V-Chan","img":"Motto_Motto_Anison.png"},
+			{"nombre":"Otaku Channel","dj":"V-Chan","img":"Otaku_Channel.png"},
+			{"nombre":"Pan_con_Mango","dj":"Kawaii-Chan","img":"Pan_con_Mango.png"},
+			{"nombre":"Rainbow Sound","dj":"V-Chan","img":"Rainbow_Sound.png"},
+			{"nombre":"Sexo Sentido","dj":"Vickynga","img":"Sexo_Sentido.png"},
+			{"nombre":"Sonido Oscuro","dj":"Vickynga","img":"Sonido_Oscuro.png"},
+			{"nombre":"Prime Time","dj":"V-Chan","img":"Prime_Time.png"},
+			{"nombre":"Warp Zone","dj":"V-Chan","img":"Warp_Zone.png"}
+]
+
 }
