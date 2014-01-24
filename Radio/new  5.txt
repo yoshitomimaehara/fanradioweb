@@ -1,3 +1,0 @@
-<script type="text/javascript" src="http://www.miradio.us/js.php/fanradio2/streaminfo/rnd0"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
