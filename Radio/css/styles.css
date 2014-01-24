@@ -1,0 +1,20 @@
+    *{
+		margin:0px;
+		padding:0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:13px;
+    }
+
+	/* Etiquetas */
+	body{
+		background-color: transparent;
+    }
+
+	
+	/* Identificadores*/
+	#image{
+		margin: 0px auto;
+	}
+	
+	
+	/* Clases */
