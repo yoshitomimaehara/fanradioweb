@@ -6,36 +6,43 @@
 <script type="text/javascript" src="http://www.miradio.us/js.php/fanradio2/streaminfo/rnd0"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/funciones.js"></script>
-<script type="text/javascript">
-	
-</script>
 
-</head>   
-<body> 
+</head>
+<body>
 	<table align="center" width="245px" >
 	<tr>
-	<script>
-		refresh_cc_stream_info();
-	</script>
-	<td align="center"><br />
-		<span id="image"><img id="image"/></span><br/>
-        <b>Al Aire: </b> <br/><span id="loc"></span><br/>
-        <b>Programa: </b> <br/><span id="cc_stream_info_title"></span> <br/>
-        <b>Nos Escuchan: </b><br/><span id="cc_stream_info_listeners"></span> oyentes<br />
-        <b>Esta Sonando: </b><br/><marquee width="90%" scrollamount="2"><a href="http://www.miradio.us/tunein.php/fanradio2/tunein.pls" id="cc_stream_info_song">Loading...</a></marquee>
-	</td>
+	    <script type="text/javascript">
+		    refresh_cc_stream_info();
+            init_data();
+	    </script>
+        <td align="center"><br />
+            <span id="image"></span><br/>
+            <b>Al Aire: </b> <br/><span id="loc"></span><br/>
+            <b>Programa: </b> <br/><span id="cc_stream_info_title"></span> <br/>
+            <b>Nos Escuchan: </b><br/><span id="cc_stream_info_listeners"></span> oyentes<br />
+            <b>Esta Sonando: </b><br/><marquee width="90%" scrollamount="2"><a href="http://www.miradio.us/tunein.php/fanradio2/tunein.pls" id="cc_stream_info_song">Loading...</a></marquee>
+        </td>
 	</tr>
     </table>
-<embed type="application/x-shockwave-flash" src="http://u.jimdo.com/www17/o/s224fc11c65cbc592/flash/mfb62a1015fa9f693/1365806113/flash.swf" width="200" height="20" style="undefined" id="streambaby" name="streambaby" quality="high" flashvars="type=mp3&amp;file=http://199.91.172.100:8186/;stream.nsv&amp;autostart=true&amp;backcolor=0xCFCFCF&amp;frontcolor=0x000000&amp;lightcolor=0x000000&amp;screencolor=0xCFCFCF">
+<embed type="application/x-shockwave-flash" src="http://u.jimdo.com/www17/o/s224fc11c65cbc592/flash/mfb62a1015fa9f693/1365806113/flash.swf"
+       width="200" height="20" style="undefined" id="streambaby" name="streambaby" quality="high"
+       flashvars="type=mp3&amp;file=http://199.91.172.100:8186/;stream.nsv&amp;autostart=true&amp;backcolor=0xCFCFCF&amp;frontcolor=0x000000&amp;lightcolor=0x000000&amp;screencolor=0xCFCFCF">
 </div>
 <div class='clear'></div>
-</script>
-<div id="cc_tunein">
-	<a href="http://www.miradio.us/tunein.php/fanradio2/playlist.pls"><img align="absmiddle" src="http://www.miradio.us/system/images/tunein-pls.png" border="0" alt="Winamp" title="Winamp" /></a>
-	<a href="http://www.miradio.us/tunein.php/fanradio2/playlist.asx"><img align="absmiddle" src="http://www.miradio.us/system/images/tunein-asx.png" border="0" alt="windows Media Player" title="Windows Media Player" /></a>
-	<a href="http://www.miradio.us/tunein.php/fanradio2/playlist.ram"><img align="absmiddle" src="http://www.miradio.us/system/images/tunein-ram.png" border="0" alt="Real Player" title="Real Player" /></a>
-	<a href="http://www.miradio.us/tunein.php/fanradio2/playlist.qtl"><img align="absmiddle" src="http://www.miradio.us/system/images/tunein-qtl.png" border="0" alt="QuickTime" title="QuickTime" /></a>
-</div>
+    <div id="cc_tunein">
+        <a href="http://www.miradio.us/tunein.php/fanradio2/playlist.pls">
+            <img align="absmiddle" src="http://www.miradio.us/system/images/tunein-pls.png" border="0" alt="Winamp" title="Winamp" />
+        </a>
+        <a href="http://www.miradio.us/tunein.php/fanradio2/playlist.asx">
+            <img align="absmiddle" src="http://www.miradio.us/system/images/tunein-asx.png" border="0" alt="windows Media Player" title="Windows Media Player" />
+        </a>
+        <a href="http://www.miradio.us/tunein.php/fanradio2/playlist.ram">
+            <img align="absmiddle" src="http://www.miradio.us/system/images/tunein-ram.png" border="0" alt="Real Player" title="Real Player" />
+        </a>
+        <a href="http://www.miradio.us/tunein.php/fanradio2/playlist.qtl">
+            <img align="absmiddle" src="http://www.miradio.us/system/images/tunein-qtl.png" border="0" alt="QuickTime" title="QuickTime" />
+        </a>
+    </div>
 </div>
 <div class='clear'></div>
 <body>
