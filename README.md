@@ -1,4 +1,5 @@
-<h1>[-FanRadio-] web</h1>
+[-FanRadio-] web
+==============
 
 Este Proyecto fue empezado por:
  - Juan Rodríguez Cordova(Kouji)
