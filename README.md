@@ -8,3 +8,6 @@ Continuado por:
 
  - Yoshitomi Maehara(Kazejin)
 
+Lenguajes Utilizados:
+ - HTML
+ - Javascript
