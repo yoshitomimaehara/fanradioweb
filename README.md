@@ -12,4 +12,4 @@ Lenguajes Utilizados:
  - HTML
  - Javascript
 
-**Estado**:Activo
+**Estado**:Pausado
