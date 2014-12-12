@@ -1,5 +1,5 @@
 function init_data() {
-    var ahora = new Date;
+    var ahora = new Date();
     var horanow = ahora.getHours();
     //var minnow = ahora.getMinutes();
     var dianow = ahora.getDay();
@@ -8,26 +8,19 @@ function init_data() {
         $.each(data.programas, function (i, item) {
             cont++;
         });
-        var i = 0;
+        var i = 1;
         var n;
         var flag = false;
         while (i < cont || flag == false) {
-            if (dianow == data.programas[i].dia) {
-                var k=0;
-                while (k < cont) {
-                    if ((horanow >= data.programas[k].horini || horanow <= data.programas[k].horfin) && dianow == data.programas[i].dia) {
-                        n = k;
-                        flag = true;
-                    }
-                    k++;
-                }
+            if (dianow == data.programas[i].dia && (horanow >= data.programas[i].horini || horanow <= data.programas[i].horfin)) {
+                n=i;
             }
             i++;
+			 flag = true;
         }
         if (flag == false) {
             n = 0;
         }
-        console.log(n);
         $('#loc').text(data.programas[n].dj);
         $('#image').html('<img src=' + "img/" + data.programas[n].img + '/>');
         $('#titulo').text(data.programas[n].nombre);
@@ -44,7 +37,7 @@ function limpiar() {
 
 function refrescar() {
     limpiar();
-    window.setInterval(5000);
+    window.setInterval(10000);
     init_data();
 }
 

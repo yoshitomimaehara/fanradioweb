@@ -7,8 +7,8 @@
             "dj": "V-Chan",
             "img": "Autodj.png",
             "dia": 0,
-            "horini": 25,
-            "horfin": 25
+            "horini": 35,
+            "horfin": 36
         },
         {
             "nombre": "Sertlamania",
@@ -32,21 +32,14 @@
             "img": "FanatiX.png",
             "dia": 3,
             "horini": 20,
-            "horfin": 22
+            "horfin": 21
+
         },
         {
             "nombre": "Contralonazo del Poder",
             "dj": "Understar",
             "img": "Contralonazo_De_Poder.png",
             "dia": 4,
-            "horini": 20,
-            "horfin": 22
-        },
-        {
-            "nombre": "Cosplay Time",
-            "dj": "Mishiko",
-            "img": "Cosplay_Time.png",
-            "dia": 1,
             "horini": 20,
             "horfin": 22
         },
@@ -67,76 +60,20 @@
             "horfin": 20
         },
         {
-            "nombre": "Locura Deportiva",
-            "dj": "Skal y Scan",
-            "img": "Locura_Deportiva.png",
-            "dia": 5,
-            "horini": 13,
-            "horfin": 14
-        },
-        {
-            "nombre": "Los Especiales",
-            "dj": "Mel",
-            "img": "Los_Especiales.png",
-            "dia": 7,
-            "horini": 20,
-            "horfin": 22
-        },
-        {
-            "nombre": "Motto Motto Anison",
-            "dj": "JAM Proyect L.A",
-            "img": "Motto_Motto_Anison.png",
-            "dia": 6,
-            "horini": 18,
-            "horfin": 20
-        },
-        {
-            "nombre": "Pan_con_Mango",
-            "dj": "Kawaii-Chan",
-            "img": "Pan_con_Mango.png",
-            "dia": 6,
-            "horini": 25,
-            "horfin": 25
-        },
-        {
-            "nombre": "Rainbow Sound",
-            "dj": "Area Fan Girls",
-            "img": "Rainbow_Sound.png",
-            "dia": 7,
-            "horini": 25,
-            "horfin": 25
-        },
-        {
             "nombre": "Sexo Sentido",
             "dj": "Vickynga",
             "img": "Sexo_Sentido.png",
-            "dia": 6,
-            "horini": 25,
-            "horfin": 25
+            "dia": 5,
+            "horini": 22,
+            "horfin": 23
         },
         {
             "nombre": "Sonido Oscuro",
             "dj": "Vickynga",
             "img": "Sonido_Oscuro.png",
-            "dia": 5,
-            "horini": 25,
-            "horfin": 25
-        },
-        {
-            "nombre": "Prime Time",
-            "dj": "Transformers Peru",
-            "img": "Prime_Time.png",
-            "dia": 1,
-            "horini": 25,
-            "horfin": 25
-        },
-        {
-            "nombre": "Warp Zone",
-            "dj": "Faber",
-            "img": "Warp_Zone.png",
-            "dia": 7,
-            "horini": 25,
-            "horfin": 25
+            "dia": 2,
+            "horini": 22,
+            "horfin": 23
         }
     ]
 
