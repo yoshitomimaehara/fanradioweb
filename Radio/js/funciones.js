@@ -8,36 +8,41 @@ function init_data() {
         $.each(data.programas, function (i, item) {
             cont++;
         });
-        var i = 1;
-        var n;
-        var flag = false;
-        while (i < cont || flag == false) {
-            if (dianow == data.programas[i].dia && (horanow >= data.programas[i].horini || horanow <= data.programas[i].horfin)) {
-                n=i;
-            }
-            i++;
-			 flag = true;
-        }
-        if (flag == false) {
-            n = 0;
-        }
-        $('#loc').text(data.programas[n].dj);
-        $('#image').html('<img src=' + "img/" + data.programas[n].img + '/>');
-        $('#titulo').text(data.programas[n].nombre);
+
     });
+    var i = 1;
+    var n;
+    var flag = false;
+    while (i < cont || flag == false) {
+        if (dianow == data.programas[i].dia && (horanow >= data.programas[i].horini || horanow <= data.programas[i].horfin)) {
+             n=i;
+        }
+        i++;
+        flag = true;
+    }
+    if (flag == false) {
+        n = 0;
+    }
+    document.getElementById('loc').InnerText(data.programas[n].dj)
+    document.getElementById('image').InnerHTML('<img src=' + "img/" + data.programas[n].img + '/>')
+    document.getElementById('titulo').InnerText(data.programas[n].nombre)
     refrescar();
 }
 
+function vaciar(){
+
+}
+
 function limpiar() {
-    $('#loc').empty();
-    $('#image').empty();
-    $('#titulo').empty();
+    document.getElementById('loc').InnerHTML = null;
+    document.getElementById('image').InneHTML = null;
+    document.getElementById('titulo').InnerHTML = null;
 }
 
 
 function refrescar() {
     limpiar();
-    window.setInterval(10000);
+    window.setInterval(8000);
     init_data();
 }
 

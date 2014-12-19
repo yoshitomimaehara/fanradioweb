@@ -21,16 +21,19 @@
             <b>Al Aire: </b> <br/><span id="loc"></span><br/>
             <b>Programa: </b> <br/><span id="titulo"></span> <br/>
             <b>Nos Escuchan: </b><br/><span id="cc_stream_info_listeners"></span> oyentes<br />
-            <b>Esta Sonando: </b><br/><marquee width="90%" scrollamount="2"><a href="http://www.miradio.us/tunein.php/fanradio2/tunein.pls" id="cc_stream_info_song">Loading...</a></marquee>
+            <b>Esta Sonando: </b><br/><marquee width="90%" scrollamount="2" ><p id="cc_stream_info_song">Loading...</a></marquee>
         </td>
 	</tr>
     </table>
-<!--<embed type="application/x-shockwave-flash" src="http://u.jimdo.com/www17/o/s224fc11c65cbc592/flash/mfb62a1015fa9f693/1365806113/flash.swf"
+<!--[if IE 6]>
+<embed type="application/x-shockwave-flash" src="http://u.jimdo.com/www17/o/s224fc11c65cbc592/flash/mfb62a1015fa9f693/1365806113/flash.swf"
        width="200" height="20" id="streambaby" name="streambaby" quality="high"
        flashvars="type=mp3&amp;file=http://199.91.172.100:8186/;stream.nsv&amp;autostart=true&amp;backcolor=0xCFCFCF&amp;frontcolor=0x000000&amp;lightcolor=0x000000&amp;screencolor=0xCFCFCF"></embed>
--->
-<audio autoplay preload="auto" controls src="http://199.91.172.100:8186/;stream.nsv"></audio>
+<![endif]-->
+<!-- [if !IE] -->
+<audio id="player" autoplay preload="auto" controls src="http://199.91.172.100:8186/;stream.nsv"></audio>
 </div>
+<!-- [endif] -->
 <div class='clear'></div>
     <div id="cc_tunein">
         <a href="http://www.miradio.us/tunein.php/fanradio2/playlist.pls">
