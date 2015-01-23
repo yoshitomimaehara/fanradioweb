@@ -3,35 +3,34 @@ function init_data() {
     var horanow = ahora.getHours();
     //var minnow = ahora.getMinutes();
     var dianow = ahora.getDay();
-    $.getJSON('json/programas.json', function (data) {
-        var cont = 0;
-        $.each(data.programas, function (i, item) {
-            cont++;
-        });
+    
 
-    });
-    var i = 1;
-    var n;
-    var flag = false;
-    while (i < cont || flag == false) {
-        if (dianow == data.programas[i].dia && (horanow >= data.programas[i].horini || horanow <= data.programas[i].horfin)) {
-             n=i;
-        }
-        i++;
-        flag = true;
-    }
-    if (flag == false) {
-        n = 0;
-    }
-    document.getElementById('loc').InnerText(data.programas[n].dj)
-    document.getElementById('image').InnerHTML('<img src=' + "img/" + data.programas[n].img + '/>')
-    document.getElementById('titulo').InnerText(data.programas[n].nombre)
-    refrescar();
+    request = new XMLHttpRequest();
+    request.open("GET", "programas.json", true);
+    request.onload = function() {
+      if (request.status == 200 && request.readyState == 4){
+        // Success!
+        data = JSON.parse(request.responseText);
+        console.log(data.programas[1].dj)
+        //document.getElementById('loc').textContent = jsonObj.programas[1].dj
+        //document.getElementById('image').InnerHTML('<img src=' + "img/" + jsonObj.programas[1].img + '/>')
+        //document.getElementById('titulo').textContent = jsonObj.programas[1].nombre
+      } else {
+        // We reached our target server, but it returned an error
+        console.log("file error")
+      }
+    };
+    request.onerror = function() {
+      // There was a connection error of some sort
+      console.log("connection error")
+    };
+
+    request.send();
+    console.log(request.readyState)
+    //refrescar();
 }
 
-function vaciar(){
 
-}
 
 function limpiar() {
     document.getElementById('loc').InnerHTML = null;
