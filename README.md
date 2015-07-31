@@ -9,7 +9,8 @@ Continuado por:
  - Yoshitomi Maehara(Kazejin)
 
 Lenguajes Utilizados:
- - HTML
- - Javascript
+ - HTML5
+
+SGBD: MySQL
 
 **Estado**:Pausado
