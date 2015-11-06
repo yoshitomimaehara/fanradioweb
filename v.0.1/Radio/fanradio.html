@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>fan radio - Prueba</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" href="css/index.css"/>
+<script type="text/javascript" src="http://www.miradio.us:2199/system/streaminfo.js"></script>
+<script type="text/javascript" src="http://www.miradio.us:2199/js.php/fanradio2/streaminfo/rnd0"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript"  src="js/funciones.js"></script>
+<script type="text/javascript" src="js/audio.min.js"></script>
+</head>
+<body>
+<div id="reproductor">	
+	<table align="center" width="245px" >
+	<tr>
+	    <script type="text/javascript">
+		    refresh_cc_stream_info();
+            init_data();
+	    </script>
+        <td align="center"><br />
+            <span id="image"></span><br/>
+            <b>Al Aire: </b> <br/><span id="loc"></span><br/>
+            <b>Programa: </b> <br/><span id="titulo"></span> <br/>
+            <b>Nos Escuchan: </b><br/><span id="cc_strinfo_listeners_fanradio2" class="cc_streaminfo"></span> oyentes<br />
+            <b>Esta Sonando: </b><br/><marquee width="90%" scrollamount="2" ><span id="cc_strinfo_song_fanradio2" class="cc_streaminfo">Loading...</span></marquee>
+        </td>
+	</tr>
+    <tr>
+    <td colspan="2">
+	<audio controls="controls" src="http://69.30.224.102:8000/stream">
+		  Your browser does not support the audio element.
+	</audio>
+	<!-- [endif] -->
+	</td>
+	</tr>
+	</table>
+	<div class='clear'></div>
+</div>
+<div class= 'clear'></div>
+<div class = "chat">
+	    <script id="cid0020000087466411586" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{"handle":"fanradio","arch":"js","styles":{"a":"CC0000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"CC0000","l":"CC0000","m":"CC0000","n":"FFFFFF","p":"10","q":"CC0000","r":100}}</script>
+</div>
+</body>
+</html>

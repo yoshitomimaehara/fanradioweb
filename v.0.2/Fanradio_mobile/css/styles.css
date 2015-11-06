@@ -1,0 +1,30 @@
+body{
+	max-width: 1020px;
+}
+
+.cabecera{
+	height:2.2em;
+	background: #373636;
+	font-family: Verdana;
+	padding-top: 0.5em;
+}
+
+.foto,.info{
+	background-color: white;
+}
+
+
+.info ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+
+.cabecera img
+{
+	width: 3em;
+}
+
+.foto{
+	padding-top: .4em
+}

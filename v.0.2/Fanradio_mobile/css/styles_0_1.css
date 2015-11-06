@@ -1,0 +1,42 @@
+body{
+	margin: 0;	
+}
+
+.cabecera{
+	height:2em;
+	width: 100%;
+	background: #373636;
+	font-family: Verdana;
+	line-height: 2.2rem;
+}
+
+.cabecera img
+{
+	padding: .5rem;
+	width: 3em;
+}
+
+.radio{
+	width: 100%;
+	font-family: Verdana;
+	background: #eee;
+	padding-top:.1em;
+}
+
+
+.info
+{
+	width: 100%;
+}
+
+.info ul
+{
+	text-align: center;
+	list-style: none;
+	margin-left: 0;
+}
+
+audio
+{
+	width: 100%;
+}

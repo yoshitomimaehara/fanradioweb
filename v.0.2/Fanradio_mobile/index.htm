@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>[Fan-Radio] - Mobile Version</title>
+	<link rel="stylesheet" href="css/styles.css"/>
+	<link rel="stylesheet" href="css/ed-grid.css"/>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<style type="text/css">
+		.icon-menu:before{
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	<div class="grupo total">
+		<header class="caja cabecera">
+			<img src="img/logo.png"/>
+			<a href="#" class="icon-menu derecha"></a>
+		</header>
+	</div>			
+	<div class="grupo movil-tabla">
+		<div class="caja movil-50 web-50 medio foto centrar-contenido">
+			<span id="image"></span>
+		</div>
+		<div class="caja movil-50  web-50 medio info centrar-contenido">
+			<ul>
+			    <li><b>Al Aire:</b></li>
+			    <li></b><span id="loc" class="item">Loading...</span></li>
+			    <li><b>Programa: </b></li>
+			    <li><span id="titulo" class="item">Loading...</span></li>
+			    <li><b>Nos Escuchan: </b></li>
+			    <li><span id="cc_strinfo_listeners_fanradio2" class="cc_streaminfo">Loading...</span><span id="oyentes"></span></li>
+			    <li><b>Esta Sonando: </b></li>
+			    <li><span id="cc_strinfo_song_fanradio2" class="cc_streaminfo">Loading...</span></li>
+			</ul>
+		</div>
+	</div>	
+	<div class="grupo total">
+		<div class="caja ed-video">
+			<audio controls src="http://69.30.224.102:8000/stream" autoplay class="centro total" />
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="http://www.miradio.us:2199/system/streaminfo.js"></script>
+<script type="text/javascript" src="http://www.miradio.us:2199/js.php/fanradio2/streaminfo/rnd0"></script>
+</html>

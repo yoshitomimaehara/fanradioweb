@@ -1,0 +1,80 @@
+{
+
+    "programas": [
+
+        {
+            "nombre": "AutoDJ",
+            "dj": "V-Chan",
+            "img": "Autodj.png",
+            "dia": 0,
+            "horini": 35,
+            "horfin": 36
+        },
+        {
+            "nombre": "Sertlamania",
+            "dj": "The Sertla",
+            "img": "Sertlamania.png",
+            "dia": 5,
+            "horini": 22,
+            "horfin": 24
+        },
+        {
+            "nombre": "Anime no Hibi",
+            "dj": "Jimbo",
+            "img": "Anime_no_Hibi.png",
+            "dia": 3,
+            "horini": 22,
+            "horfin": 24
+        },
+        {
+            "nombre": "FanatiX",
+            "dj": "Starty",
+            "img": "FanatiX.png",
+            "dia": 3,
+            "horini": 20,
+            "horfin": 21
+
+        },
+        {
+            "nombre": "Contralonazo del Poder",
+            "dj": "Understar",
+            "img": "Contralonazo_De_Poder.png",
+            "dia": 4,
+            "horini": 20,
+            "horfin": 22
+        },
+        {
+            "nombre": "Crisis de Identidad",
+            "dj": "Qoki & Demes",
+            "img": "Crisis_de_identidad.png",
+            "dia": 4,
+            "horini": 22,
+            "horfin": 24
+        },
+        {
+            "nombre": "Cueva sin Salida",
+            "dj": "Takita",
+            "img": "Cueva_sin_Salida.png",
+            "dia": 2,
+            "horini": 18,
+            "horfin": 20
+        },
+        {
+            "nombre": "Sexo Sentido",
+            "dj": "Vickynga",
+            "img": "Sexo_Sentido.png",
+            "dia": 5,
+            "horini": 22,
+            "horfin": 23
+        },
+        {
+            "nombre": "Sonido Oscuro",
+            "dj": "Vickynga",
+            "img": "Sonido_Oscuro.png",
+            "dia": 2,
+            "horini": 22,
+            "horfin": 23
+        }
+    ]
+
+}
